@@ -1,0 +1,6 @@
+p = int(input())
+x = int(input())
+y = int(input())
+c = (x*100+y)
+print(int(c/100*p+c)//100)
+print((int(c/100*p+c)%100))
